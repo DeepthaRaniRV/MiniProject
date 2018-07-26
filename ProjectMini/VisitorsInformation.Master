@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="VisitorsInformation.master.cs" Inherits="ProjectMini.VisitorsInformation" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 1500px;
+            height: 155px;
+        }
+        .auto-style3 {
+            width: 193px;
+            font-size: xx-large;
+        }
+        .auto-style4 {
+            width: 216px;
+            height: 181px;
+        }
+        .auto-style5 {
+            height: 181px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+          <div>
+                <table class="auto-style1">
+                    <tr>
+                        <td class="auto-style4" style="background-color: #33CCFF">
+                            <asp:Image ID="Image1" runat="server" Height="165px" ImageUrl="~/tech.jpg" Width="221px" />
+                            <span class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </td>
+                        <td class="auto-style5" style="background-color: #33CCFF">
+                            <span class="auto-style3">SHAILENDRA TECHPARK </span>
+                            <br class="auto-style3" />
+                            <span class="auto-style3">&nbsp;&nbsp; (Visitors Information)</span></td>
+                    </tr>
+                </table>
+            </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+          
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
